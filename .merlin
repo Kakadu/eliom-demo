@@ -1,0 +1,5 @@
+SRC .
+B _server
+B _client
+
+PKG eliom
