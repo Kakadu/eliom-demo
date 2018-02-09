@@ -1,18 +1,7 @@
-_server/Foo.cmi :
-_server/Foo.cmo :
-_server/Foo.cmx :
-_server/Foo.cmo : _server/Foo.type_mli
-_server/Foo.cmx : _server/Foo.type_mli
-_server/counter.cmo : _server/Foo.cmo
-_server/counter.cmx : _server/Foo.cmx
-_server/counter.type_mli : _server/Foo.cmo
+_server/counter.cmo :
+_server/counter.cmx :
 _server/counter.cmo : _server/counter.type_mli
 _server/counter.cmx : _server/counter.type_mli
-_client/Foo.cmi :
-_client/Foo.cmo :
-_client/Foo.cmx :
-_client/Foo.cmo : _server/Foo.type_mli
-_client/Foo.cmx : _server/Foo.type_mli
 _client/counter.cmo :
 _client/counter.cmx :
 _client/counter.cmo : _server/counter.type_mli
